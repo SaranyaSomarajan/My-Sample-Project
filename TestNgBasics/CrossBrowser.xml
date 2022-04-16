@@ -1,0 +1,20 @@
+<suite name="MyTestSuite">
+	<test name="Chrome Test">
+		<parameter name="Browser" value="chrome"></parameter>
+		<classes>
+			<class name="AssertionAssg"></class>
+		</classes>
+	</test>
+	<test name="Edge Test">
+		<parameter name="Browser" value="edge"></parameter>
+		<classes>
+			<class name="AssertionAssg"></class>
+		</classes>
+	</test>
+<test name="FireFox Test">
+		<parameter name="Browser" value="firefox"></parameter>
+		<classes>
+			<class name="AssertionAssg"></class>
+		</classes>
+</test>
+</suite>

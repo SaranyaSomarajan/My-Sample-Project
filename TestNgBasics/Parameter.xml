@@ -1,0 +1,9 @@
+<suite name="MyTestSuite">
+	<test name="MyTest">
+		<parameter name="Para1" value="10"></parameter>
+		<parameter name="Para2" value="20"></parameter>
+		<classes>
+			<class name="BasicCommand"></class>
+		</classes>
+	</test>
+</suite>

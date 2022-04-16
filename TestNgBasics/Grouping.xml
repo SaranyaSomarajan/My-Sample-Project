@@ -1,0 +1,12 @@
+<suite name="MyTestSuite">
+	<test name="Chrome Test">
+		<groups>
+			<run>
+				<include name="Critical" />
+			</run>
+		</groups>
+		<classes>
+			<class name="BasicCommand"></class>
+		</classes>
+	</test>
+</suite>

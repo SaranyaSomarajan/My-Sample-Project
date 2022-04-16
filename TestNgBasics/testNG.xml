@@ -1,0 +1,8 @@
+<suite name="MyTestSuite">
+	<test name="MyTest" parallel="methods" thread-count="2">
+		<classes>
+			<class name="AssertionAssg"></class>
+			<class name="Annotations"></class>
+		</classes>
+	</test>
+</suite>

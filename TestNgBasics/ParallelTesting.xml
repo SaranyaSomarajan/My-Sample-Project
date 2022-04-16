@@ -1,0 +1,8 @@
+<suite name="MyTestSuite">
+	<test name="MyTest" parallel="methods" threads-count="2">
+		<parameter name="Browser" value="chrome"></parameter>
+		<classes>
+			<class name="AssertionAssg"></class>
+		</classes>
+	</test>
+</suite>

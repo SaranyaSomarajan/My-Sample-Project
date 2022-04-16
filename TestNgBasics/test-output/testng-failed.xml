@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MyTestSuite]">
+  <test thread-count="5" parallel="methods" name="MyTest(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="AssertionAssg">
+        <methods>
+          <include name="verifySearchButton"/>
+          <include name="verifyLoginImageDisply"/>
+          <include name="beforeMethod"/>
+          <include name="verifyLoginApplication"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- AssertionAssg -->
+    </classes>
+  </test> <!-- MyTest(failed) -->
+</suite> <!-- Failed suite [MyTestSuite] -->
